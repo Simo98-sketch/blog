@@ -2,3 +2,28 @@ body, html {
     margin: 0;
     height: 100%;
 }
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(img/spd.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.logo {
+    width: 300px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.text {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -50px;
+    text-align: center;
+    line-height: 10px;
+}
